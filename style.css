@@ -1,0 +1,98 @@
+body{
+    background-color:  #808080; 
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color:  #808080;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 25px;
+    background-color: #43515a;
+    border-top-left-radius:15px;
+   border-top-right-radius:15px;
+}
+.profile {
+    position: fixed;
+
+}
+.profile-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 8px solid rgb(92, 86, 209);
+}
+.card-details {
+    margin-top: 70px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 86, 209) ;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 15px 0px 25px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    color: rgb(218, 231, 243);
+    margin: 15px 0px 15px 0px;
+}
+.skill {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size:18px;
+    color: rgb(218, 231, 243);
+    margin: 15px 0px 45px 0px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.social-icons .fa-instagram{
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(92, 86, 209);
+}
+.social-icons .fa-youtube{
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(92, 86, 209);
+
+}
+.social-icons .fa-linkedin{
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(92, 86, 209);
+}
+.social-icons .fa-github{
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(92, 86, 209);
+}
+.stats {
+    box-sizing: border-box;
+    width: 100%;
+   padding:25px 36px;
+   font-size: 18px;
+   background-color:rgb(92, 86, 209);
+   border-bottom-left-radius:15px;
+   border-bottom-right-radius:15px;
+}
